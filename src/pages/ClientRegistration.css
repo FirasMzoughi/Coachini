@@ -1,0 +1,38 @@
+.client-registration-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .client-registration-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .client-registration-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .client-registration-container form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .client-registration-container form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .client-registration-container form button:hover {
+    background-color: #0056b3;
+  }
+  

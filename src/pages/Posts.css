@@ -1,0 +1,46 @@
+/* src/pages/Posts.css */
+
+.posts-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .posts-content {
+    display: flex;
+    flex: 1; /* Grow to fill remaining space */
+  }
+  
+  .posts-content .client-profile-menu {
+    flex: 0 0 200px; /* Fixed width for the menu */
+    background-color: #f8f9fa; /* Light gray background for the menu */
+    border-right: 1px solid #dee2e6; /* Border to separate menu and content */
+  }
+  
+  .posts-main {
+    flex: 1; /* Grow to fill remaining space */
+    padding: 20px; /* Padding for spacing */
+    background-color: #fff; /* White background for main content */
+  }
+  
+  .posts-main h2 {
+    color: #007bff; /* Blue color for the heading */
+  }
+  
+  .posts-list {
+    margin-top: 20px; /* Space between heading and list */
+  }
+  
+  .post-item {
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1; /* Light gray background for posts */
+    border-radius: 8px; /* Rounded corners for posts */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for posts */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .post-item:hover {
+    background-color: #e9ecef; /* Slightly darker gray on hover */
+  }
+  
